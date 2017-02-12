@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>7d6c3a9d-86b6-4126-af54-e08269218c8e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SkiaCaptcha</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Captcha.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Markov.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MathHelpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProjectHelpers.cs" />
+  </ItemGroup>
+</Project>
