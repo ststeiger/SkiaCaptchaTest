@@ -77,7 +77,6 @@ namespace SkiaCaptcha
             // captchaText = "GOOSON";
 
             captchaText = @"";
-            captchaText = @"Привет Саша - Стефан";
             captchaText = @"Как дела ?";
             captchaText = @"Hi Саша ;)";
 
